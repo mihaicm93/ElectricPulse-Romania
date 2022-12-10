@@ -18,12 +18,10 @@
 
 html,
 body {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  place-items: center;
-  background: linear-gradient(15deg, #8ee5ff, #0d7aee);
+  background-image: url("https://images2.imgbox.com/a2/2a/TZ0L9y3m_o.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
