@@ -25,17 +25,23 @@ header {
 }
 
 body {
+
+  background-image: url("imgs/logosmall.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   display: grid;
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
   place-items: center;
-
-  background-image: url("imgs/logosmall.png");
-  background-position: cover;
-  background-size: contain;
-  background-repeat: no-repeat;
+  position:
+  left: 50%;
+  right: 50%;
   background-color:#010239
+
+
 }
 
 footer {
