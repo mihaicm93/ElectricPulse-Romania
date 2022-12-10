@@ -23,9 +23,9 @@ body {
 	line-height:30px;
 	
 	
-	background-image: url("https://images2.imgbox.com/fe/a7/PUH8NMcM_o.png");
+	background-image: url("imgs/sitebackground.png");
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-color:#010239
 }
