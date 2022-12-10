@@ -44,6 +44,10 @@ body {
   display: inline-flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .wrapper .icon {
   position: relative;
   background-color: #fbfeff;
@@ -100,6 +104,14 @@ body {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
@@ -130,12 +142,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.wrapper .github:hover,
-.wrapper .github:hover .tooltip,
-.wrapper .github:hover .tooltip::before {
-  background-color: #333333;
-  color: #ffffff;
-}
 
 .wrapper .linkedin:hover,
 .wrapper .linkedin:hover .tooltip,
