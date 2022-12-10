@@ -19,21 +19,21 @@
 html,
 
 header {
+  padding: 700
 
 
 }
 
 body {
   display: grid;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   font-family: "Poppins", sans-serif;
-  place-items: center
-   ;
+  place-items: center;
 
-  background-image: url("imgs/Wallpaper.png");
+  background-image: url("imgs/logosmall.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color:#010239
 }
