@@ -18,6 +18,11 @@
 
 html,
 
+header {
+
+
+}
+
 body {
   display: grid;
   height: 100%;
@@ -26,7 +31,7 @@ body {
   place-items: center;
   background-image: url("https://images2.imgbox.com/fe/a7/PUH8NMcM_o.png");
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-color:#010239
 }
@@ -44,7 +49,7 @@ footer {
 
 .wrapper .icon {
   position: relative;
-  background-color: transparent;
+  background-color: #fbfeff;
   border-radius: 50%;
   padding: 15px;
   margin: 10px;
