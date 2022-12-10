@@ -31,7 +31,7 @@ body {
   place-items: center;
   background-image: url("https://images2.imgbox.com/fe/a7/PUH8NMcM_o.png");
   background-position: center;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color:#010239
 }
