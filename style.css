@@ -41,7 +41,7 @@ body {
 
 
 .widget {
-  display: inline-flex;
+  display: flex;
 }
 
 .wrapper {
