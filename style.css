@@ -28,10 +28,12 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  place-items: center;
-  background-image: url("https://images2.imgbox.com/fe/a7/PUH8NMcM_o.png");
+  place-items: center
+   ;
+
+  background-image: url("imgs/Wallpaper.png");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color:#010239
 }
@@ -39,7 +41,7 @@ body {
 footer {
 
   font-size: 12px;
-  padding: 400px
+  padding: 300px
 }
 
 .wrapper {
