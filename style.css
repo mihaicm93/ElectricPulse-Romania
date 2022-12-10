@@ -32,7 +32,7 @@ body {
   place-items: center;
 
   background-image: url("imgs/logosmall.png");
-  background-position: center;
+  background-position: cover;
   background-size: contain;
   background-repeat: no-repeat;
   background-color:#010239
@@ -45,8 +45,7 @@ footer {
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+  display: inline-flex;
 }
 
 .wrapper .icon {
